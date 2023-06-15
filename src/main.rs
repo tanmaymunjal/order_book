@@ -1,5 +1,7 @@
 pub mod login;
+pub mod send_request;
 
-fn main() {
+#[tokio::main]
+async fn main() {
     println!("Hello, world!");
 }
